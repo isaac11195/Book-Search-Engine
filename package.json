@@ -12,7 +12,6 @@
   },
   "scripts": {
     "start": "cd server && npm start",
-    "start:prod": "cd server && npm start",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed",
